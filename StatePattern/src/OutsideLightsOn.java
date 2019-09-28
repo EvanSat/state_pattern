@@ -6,18 +6,6 @@ public class OutsideLightsOn implements State {
 	public OutsideLightsOn(OutsideLights outsideLights) {
 		this.outsideLights = outsideLights;
 	}
-	/*
-	public void turnOnLight() {
-		System.out.println("Lights already on");
-		
-	}
-
-	public void turnOffLight() {
-		System.out.println("Lights turned off");
-		OutsideLights.setState
-		
-	}
-	*/
 
 	public void nighttime() {
 		System.out.println("Outside lights are already on");
