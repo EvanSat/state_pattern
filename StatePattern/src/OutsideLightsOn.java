@@ -30,5 +30,4 @@ public class OutsideLightsOn implements State {
 	}
 
 	
-	
 }
