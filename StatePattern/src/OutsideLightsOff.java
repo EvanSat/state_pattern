@@ -10,7 +10,7 @@ public class OutsideLightsOff implements State{
 
 	public void nighttime() {
 		System.out.println("Outside lights are turned on");
-		OustideLights.setState
+		outsideLights.setState(outsideLights.getOutsideLightsOnState());
 	}
 
 
@@ -22,7 +22,7 @@ public class OutsideLightsOff implements State{
 
 	public void switchOn() {
 		System.out.println("Outside lights are turned on");
-		
+		outsideLights.setState(outsideLights.getOutsideLightsOnState());
 	}
 
 

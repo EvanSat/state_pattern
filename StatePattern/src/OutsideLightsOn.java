@@ -26,7 +26,7 @@ public class OutsideLightsOn implements State {
 
 	public void daytime() {
 		System.out.println("Outside lights are turned off");
-		
+		outsideLights.setState(outsideLights.getOutsideLightsOffState());
 		
 	}
 
@@ -38,7 +38,7 @@ public class OutsideLightsOn implements State {
 
 	public void switchOff() {
 		System.out.println("Outside Lights are turned off");
-		OutsideLights.setState(OutsideLights.getOutsideLightsOffState());
+		outsideLights.setState(outsideLights.getOutsideLightsOffState());
 	}
 
 	
