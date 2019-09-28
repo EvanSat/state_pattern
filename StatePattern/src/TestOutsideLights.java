@@ -1,3 +1,10 @@
+/***
+ * 
+ * CPSC 60000
+ * Programming Assignment #5 - State Pattern 
+ * @author Evan Sabado
+ *
+ */
 
 public class TestOutsideLights {
 	
@@ -8,9 +15,9 @@ public class TestOutsideLights {
 		
 		outsideLights.switchOn();
 		
-		outsideLights.daytime();
+		outsideLights.nighttime();
 		
-		outsideLights.daytime();
+		outsideLights.switchOn();
 	}
 	
 }
